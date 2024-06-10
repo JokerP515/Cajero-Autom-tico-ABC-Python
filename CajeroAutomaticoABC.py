@@ -2,13 +2,15 @@ from abc import ABC, abstractmethod
 #https://python-course.eu/oop/the-abc-of-abstract-base-classes.php
 #https://ellibrodepython.com/abstract-base-class
 
-#Simplemente definen una forma de crear interfaces (a través de metaclases) en los que se definen unos métodos 
-#(pero no se implementan) y donde se fuerza a las clases que usan ese interfaz a implementar los métodos. 
-#Veamos unos ejemplos.
-
-#Los interfaces formales pueden ser definidos en Python 
-#utilizando el módulo por defecto llamado ABC (Abstract Base Classes).
-
+"""
+Simplemente definen una forma de crear interfaces (a través de metaclases) en los que se definen unos métodos 
+(pero no se implementan) y donde se fuerza a las clases que usan ese interfaz a implementar los métodos. 
+Veamos unos ejemplos.
+"""
+"""
+Los interfaces formales pueden ser definidos en Python 
+utilizando el módulo por defecto llamado ABC (Abstract Base Classes).
+"""
 #Interfaz Command. En esencia, una interfaz en Java define un conjunto de métodos que deben ser implementados por cualquier clase que implemente esa interfaz
 
  
